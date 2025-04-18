@@ -1,14 +1,14 @@
 package geometria;
 
 public class Triangulo extends ObjetoGeometrico {
-    private double lado; // Attribute for equilateral triangle
+    private double lado; 
     private double base;
     private double altura;
 
     public Triangulo(double b, double a) {
         base = b;
         altura = a;
-        lado = b; // Assuming equilateral triangle for perimeter calculation
+        lado = b; 
     }
 
     @Override
@@ -19,7 +19,7 @@ public class Triangulo extends ObjetoGeometrico {
 
     @Override
     public double getPerimetro() {
-        perimetro = 3 * lado; // Using lado for perimeter
+        perimetro = 3 * lado; 
         return perimetro;
     }
 
